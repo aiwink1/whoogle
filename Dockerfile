@@ -45,13 +45,13 @@ ARG use_https=''
 ARG whoogle_port=5000
 ARG twitter_alt='farside.link/nitter'
 ARG youtube_alt='farside.link/invidious'
-ARG reddit_alt='farside.link/libreddit'
+ARG reddit_alt='redlib.onrender.com'
 ARG medium_alt='farside.link/scribe'
-ARG translate_alt='farside.link/lingva'
+ARG translate_alt='lingva-tan.vercel.app'
 ARG imgur_alt='farside.link/rimgo'
 ARG wikipedia_alt='farside.link/wikiless'
 ARG imdb_alt='farside.link/libremdb'
-ARG quora_alt='farside.link/quetre'
+ARG quora_alt='quetre-ual0.onrender.com'
 
 ENV CONFIG_VOLUME=$config_dir \
     WHOOGLE_URL_PREFIX=$url_prefix \
