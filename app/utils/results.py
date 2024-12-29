@@ -33,7 +33,7 @@ BLACKLIST = [
 SITE_ALTS = {
     'twitter.com': os.getenv('WHOOGLE_ALT_TW', 'farside.link/nitter'),
     'youtube.com': os.getenv('WHOOGLE_ALT_YT', 'farside.link/invidious'),
-     'reddit.com': os.getenv('WHOOGLE_ALT_RD', 'redlib.onrender.com'),
+     'reddit.com': os.getenv('WHOOGLE_ALT_RD', 'red27.onrender.com'),
     **dict.fromkeys([
         'medium.com',
         'levelup.gitconnected.com'
