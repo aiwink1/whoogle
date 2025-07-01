@@ -32,7 +32,6 @@ BLACKLIST = [
 ]
 
 SITE_ALTS = {
-SITE_ALTS = {
     'twitter.com': os.getenv('WHOOGLE_ALT_TW', 'twiiit.com'),
     'x.com': os.getenv('WHOOGLE_ALT_X', 'twiiit.com'),
 'youtube.com': os.getenv('WHOOGLE_ALT_YT', 'piped-tan.vercel.app'),
