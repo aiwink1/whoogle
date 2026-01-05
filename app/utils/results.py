@@ -33,18 +33,22 @@ BLACKLIST = [
 ]
 
 SITE_ALTS = {
-    'twitter.com': os.getenv('WHOOGLE_ALT_TW', 'farside.link/nitter'),
-    'youtube.com': os.getenv('WHOOGLE_ALT_YT', 'farside.link/invidious'),
-    'reddit.com': os.getenv('WHOOGLE_ALT_RD', 'farside.link/libreddit'),
+    'twitter.com': os.getenv('WHOOGLE_ALT_TW', 'twiiit.com'),
+    'x.com': os.getenv('WHOOGLE_ALT_X', 'twiiit.com'),
+'youtube.com': os.getenv('WHOOGLE_ALT_YT', 'piped-tan.vercel.app'),
+     'reddit.com': os.getenv('WHOOGLE_ALT_RD', 'red27.onrender.com'),
     **dict.fromkeys([
         'medium.com',
         'levelup.gitconnected.com'
     ], os.getenv('WHOOGLE_ALT_MD', 'farside.link/scribe')),
     'imgur.com': os.getenv('WHOOGLE_ALT_IMG', 'farside.link/rimgo'),
-    'wikipedia.org': os.getenv('WHOOGLE_ALT_WIKI', 'farside.link/wikiless'),
+    # 'wikipedia.org': os.getenv('WHOOGLE_ALT_WIKI', 'wikiless.org'),
     'imdb.com': os.getenv('WHOOGLE_ALT_IMDB', 'farside.link/libremdb'),
-    'quora.com': os.getenv('WHOOGLE_ALT_QUORA', 'farside.link/quetre'),
-    'stackoverflow.com': os.getenv('WHOOGLE_ALT_SO', 'farside.link/anonymousoverflow')
+    'quora.com': os.getenv('WHOOGLE_ALT_QUORA', 'quetre-hful.onrender.com'),
+  'stackoverflow.com': os.getenv('WHOOGLE_ALT_STACKOVERFLOW', 'farside.link/anonymousoverflow'),
+  'fandom.com': os.getenv('WHOOGLE_ALT_FANDOM', 'bw.artemislena.eu'),
+  'github.com': os.getenv('WHOOGLE_ALT_GITHUB', 'farside.link/gothub'), 
+    'instagram.com': os.getenv('WHOOGLE_ALT_INSTAGRAM', 'farside.link/proxigram')
 }
 
 # Include custom site redirects from WHOOGLE_REDIRECTS
